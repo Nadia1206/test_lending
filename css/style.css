@@ -1,0 +1,505 @@
+@font-face {
+	font-family: 'Lato-Regular';
+	src: url('font/Lato-Regular.ttf');
+}
+.container {
+    margin: 0px auto; 
+	max-width: 100%;
+	height: 100%;
+}
+.header {
+	background: #313332;
+	height: 100px;
+	width: 100%;
+	display: block;
+}
+.logo a{
+	font-family: 'Lato-Regular';
+	font-size: 30px;
+	color: white;	
+	text-transform: uppercase;
+}
+.logo {
+	padding-top: 25px;
+	float: left;
+    margin-left: 120px;
+}
+#header_menu {
+    float: right;
+}
+.menu li {
+	margin-right: 0px;
+    margin-top: 40px;
+
+}
+.menu {
+	font-size: 14px;
+    text-transform: uppercase;
+	float: right;
+    margin-right: 50px;
+}
+a:link {
+	font-family: 'Lato-Regular';
+    color: #FFFFFF;
+    }
+a:visited{
+	font-family: 'Lato-Regular';
+ 	color: #FFFFFF;
+}
+.menu a:hover {
+	font-family: 'Lato-Regular';
+    color: #00C7E8;
+    text-decoration: none;
+}
+.logo a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.name_site{
+	background-image: url(../img/bgd1.jpg);
+	height: 433px;
+	width: 100%;
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+}
+.gallery .item {
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+  background-image: url(img/bgd.jpg);
+}
+.item {
+    position: relative;
+    display: inline-block;
+    autoplay: true;
+}
+.text_item {
+ 
+    right: 0;
+    position: absolute;
+    width: 500px;
+	height: 120px;
+	background-color: #352f2f;
+	opacity: 0.9;
+	margin-top: 130px;    
+}
+#reshearch_123 {
+    float: none;
+    margin: 0 auto;
+}
+#photo_comand, #follow{
+    float: none;
+    margin: 0 auto;
+}
+.text_item h1 {
+    font-family: 'Lato-Regular';
+	padding-left: 20px;
+	font-size: 24px;
+	color: #FFF;
+	text-transform: uppercase;
+	line-height: 15px;
+	padding-top: 10px;
+    text-align: left;
+    
+}
+.text_item p {
+    text-align: left;
+    font-family: 'Lato-Regular';
+	padding-left: 20px;
+	font-size: 20px;
+	color: #FFF;
+	font-weight: bold; 
+	text-transform: uppercase;
+	line-height: 15px;
+}
+.about_company {
+	height: 350px;
+	margin-top: 100px;
+
+}
+.reshearch {
+	float: left;
+}
+.reshearch_img {
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+	background-color: #2e302f; 
+	margin: 0 auto;
+
+}
+.reshearch_img img {
+	padding: 26px; 
+}
+.reshearch div, .fully_cos div, .work div{
+	font-size: 16px;
+	text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Lato-Regular';
+}
+.reshearch p, .fully_cos p, .work p {
+	text-align: center;
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    
+}
+.reshearch_img a:hover img {
+    background-color:#00C7E8; 
+    width: 80px;
+	height: 80px;
+    border-radius: 10px;
+}
+.featured_works_text div {
+   text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Lato-Regular';
+}
+.featured_works_text p {
+    text-align: center;
+    width: 70%;
+    margin: 10px auto;
+    font-family: 'Lato-Regular';
+    font-size: 18px;
+}
+.portafoglio {
+    width: 100%;
+    margin: 0 auto;
+    display: 0 0;
+}
+.portafoglio_part img{
+    display: inline-block;
+    height: 227px;
+}
+.portafoglio_part_photo {
+    display: inline-block;
+    float: left;
+    height: 227px;
+    position: relative;
+}
+.portafoglio_part_icon {
+    position: absolute;
+    top: 100px;
+    left: 90px;
+}
+#close:hover img {
+ width: 1000px;
+}
+.portafoglio_part_icon_wide {
+    position: absolute;
+    top: 100px;
+    left: 190px;
+}
+.portafoglio_part_icon img, .portafoglio_part_icon_wide img  {
+    width: 30px;
+    height: 31px;
+}
+.portafoglio_part_icon_wide, .portafoglio_part_icon {
+    visibility: hidden;
+}
+.portafoglio_part_photo:hover {
+    background-color: #5f5d51;
+    opacity: 0.5;
+}
+.portafoglio_part_photo:hover img  {
+   visibility: visible;
+}
+.nivoZoom {
+   width: 1200px;
+   position: relative;
+   display: inline-block;
+}
+.photo img{
+    border-radius: 50%;
+    background-color: gray;
+    width: 100%;
+}
+.comand {
+    margin: 0px auto;
+    width: 80%; 
+    clear: both;
+    height: 400px;
+
+}
+.photo {
+    position: relative;
+    margin: 30px auto;
+    padding: 0 0;
+    width: 100%;
+    margin-top: 60px;
+}
+.photo:hover img {
+    background-color: #979797;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.photo_label{
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+.photo_label span {
+    visibility: hidden;
+}
+.photo:hover span {
+    visibility: visible;
+}
+.photo_comand div {
+   text-align: center;
+    font-family: 'Lato-Regular';
+    font-size: 18px;
+}
+.photo_comand {
+  
+}
+.photo_comand:link {
+	font-family: 'Lato-Regular';
+    color: #656565;
+    cursor: pointer;
+    }
+.photo_comand:visited{
+	font-family: 'Lato-Regular';
+ 	color: #656565;
+    cursor: pointer;
+}
+.photo_comand:hover {
+	font-family: 'Lato-Regular';
+    color: #656565;
+    text-decoration: none;
+    cursor: pointer;
+}
+.title {
+    height: 400px;
+    background-color: #838584;
+    width: 100%;
+    display: inline-block;
+}
+.img_title {
+    float: left;
+    width: 30%;
+    margin-left: 150px;
+}
+.img_title img {
+    position: absolute;
+    bottom: 5px;
+}
+.text_title_1 {
+    float: left;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 80px;
+    color: white;
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+}
+.text_title_2 {
+    margin-right: 80px;
+    font-size: 16px;
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Lato-Regular';
+}
+.title_name {
+   font-size: 24px;
+   text-transform: uppercase;
+   text-align: center; 
+   color: white;
+   margin-top: 100px;
+    font-weight: bold;
+    font-family: 'Lato-Regular';
+}
+.text_title {
+    width: 60%;
+    float: right;
+}
+.follow {
+    height: 130px;
+    margin: 50px auto;
+}
+.follow_number {
+
+    font-family: 'Lato-Regular';
+    font-weight: bold;
+}
+.follow_number p{
+    color: #00C7E8;
+    font-size: 16px;
+    text-align: center;
+}
+.follow_number h1 {
+    text-align: center;
+}
+.footer {
+    height: 300px;
+    background-color: #313332;
+    color: white; 
+}
+.footer_charpet {
+    width: 70%;
+    margin: 0 auto;
+}
+.about_us {
+    float: left;
+    width: 32%; 
+    margin: 0 0;
+}
+.contact {
+    float: left;
+    width: 32%;
+    margin-left: 15px;
+    margin-top: 0;
+}
+.social_media {
+    float: right;
+    width: 32%;
+    margin: 0 0;
+}
+.about_us p, .contact p, .social_media p{
+    color: #909291;
+}
+.get_charpet {
+    margin-bottom: 10px;
+}
+.get_charpet div {
+    display: inline;
+    font-weight: bold;
+}
+.get_charpet p {
+   display: block;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+.share img {
+    width: 30px;
+}
+.copyrigth {
+    width: 100%;
+    height: 50px;
+    background-color: #252726;
+}
+.copyrigth p {
+    width: 100px;
+    text-align: center;
+    color: #939594;
+    margin: 0 auto;
+}
+
+.popup {
+    position: fixed;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    display:none;
+    text-align:center;
+}
+.popup_bg {
+    background:rgba(0,0,0,0.4);
+    position:absolute;
+    z-index:1;
+    height:100%;
+    width:100%;
+}
+.popup_img {
+    position: relative;
+    margin:0 auto;
+    z-index:2;
+    max-height:94%;
+    max-width:94%;
+    margin:1% 0 0 0;
+}
+.zoom {
+    cursor:pointer; 
+}
+@media  screen and (max-width: 720px) {
+    .container {
+        width: 100%;
+    }
+    .logo {
+        margin: 0 50px;
+    }
+    .menu {
+        float: left; 
+        margin: 0 auto;
+    }
+    .header{
+        height: 100vh;
+    }
+    .menu li {
+        font-size: 24px;
+        text-align: center;
+    }
+    .text_item{
+        width: 80%;
+        top: 0px;
+    }
+
+    .reshearch, .fully_cos, .work {
+        width: 100%;
+        margin: 0 0;
+        float: right;
+    }
+    .portafoglio_part {
+        width: 100%;
+    }
+    .photo_label span, .photo_comand div {
+        font-size: 24px;
+        margin: 0 0;
+    }
+    .comand {
+        width: 100%;
+        height: 100%;
+    }
+
+    .title{
+        width: 100%;
+        height: 100%;
+    }
+    .text_title {
+        width: 100%;
+        margin: 0 0;
+        padding: 0 0;
+        float: none;
+    }
+    .title_name{
+        margin: 30px;
+    }
+    .text_title_1, .text_title_2 {
+        float: none;
+        padding: 10px 30px;
+        margin: 0 20px;
+        width: 100%;
+    }
+    .img_title {
+        float: none;
+        margin: 0 60px;
+        position: bottom;
+    }
+    .img_title img{
+      position: static;
+      width: 100%;
+    }
+
+    .footer_charpet{
+        width: 100%;
+        height: 700px;
+        background: #313332;
+        margin: 0 0;
+    }
+    .about_us, .contact, .social_media {
+        width: 90%;
+        margin: 0px 20px;
+    }
+        .contact p, .contact h2 {
+            margin: 0 0;
+        }
+        .share {
+            margin-bottom: 20px;
+            margin-top: 0;
+        }
+    
+}
+    
